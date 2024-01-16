@@ -35,7 +35,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px; /*desta forma, a primeira propriedade será aplicada no top, a segunda à direita, e assim por diante no sentido horário*/
   padding: 0 24px;
 }
