@@ -41,6 +41,7 @@ body * {
   padding: 0 24px;
 }
 
+/* profile */
 #profile {
   text-align: center;
   padding: 24px;
@@ -53,6 +54,7 @@ body * {
 #profile p {
   font-weight: 500;
   line-height: 24px;
+  margin-top: 8px;
 }
 
 /* switch */
@@ -80,7 +82,7 @@ body * {
 }
 
 .light #switch button {
- animation: slide-in 0.2s forwards;
+  animation: slide-in 0.2s forwards;
 }
 
 #switch button:hover {
@@ -172,10 +174,10 @@ o @media só funciona quando, no html, há a seguinte linha (linha 13 no index.h
 @media (min-width: 700px) {
   :root {
     --bg-url: url(./assets/bg-desktop.jpg);
+  }
 
-    .light {
-      --bg-url: url(./assets/bg-desktop-light.jpg);
-    }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
 
